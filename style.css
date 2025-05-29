@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input {
+  flex: 1;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+#books-list {
+  list-style: none;
+  padding: 0;
+}
+
+#books-list li {
+  background: #eee;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-info {
+  flex-grow: 1;
+}
+
+button.edit-btn, button.delete-btn {
+  margin-left: 10px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+button.edit-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+button.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}

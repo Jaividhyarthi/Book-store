@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Book Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Book Store</h1>
+
+    <form id="book-form">
+      <input type="hidden" id="book-id" />
+      <input type="text" id="title" placeholder="Title" required />
+      <input type="text" id="author" placeholder="Author" required />
+      <button type="submit">Add Book</button>
+      <button type="button" id="cancel-edit" style="display:none;">Cancel Edit</button>
+    </form>
+
+    <h2>Books List</h2>
+    <ul id="books-list"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
